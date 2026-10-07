@@ -37,7 +37,7 @@ Hardware Used
 - Soil moisture sensor
 - Breadboard
 - Jumper wires
-- LED and Buzzer ( Alert indicator )
+- LED  ( Alert indicator )
 
 Software
 - Embedded C 
@@ -65,3 +65,9 @@ void loop() {
     }
     delay(1000);
 }
+
+Soil moisture sensor
+A typical moisture sensor module has:
+- VCC → Arduino 5V
+- GND → Arduino GND
+- AO (Analog Output) → Arduino A0
